@@ -42,25 +42,50 @@ User data is stored in JSON files in the `data/` folder. Each file should be nam
 ```json
 {
   "username": "demo",
-  "name": "Demo User",
-  "email": "demo@example.com",
-  "bio": "This is a demo user profile",
+  "name": "Alex the Awesome",
+  "email": "alex@superstars.dev",
+  "bio": "Professional bug creator turned bug destroyer 🐛💥",
   "location": "Bangalore, India",
+  "favoriteColor": "Electric Blue",
+  "favoriteGame": "Among Us (always sus 👀)",
+  "hobbies": "Collecting rubber ducks, speed-cubing, making terrible puns",
+  "superpower": "The ability to understand my own code from 6 months ago",
+  "favoriteSnack": "Masala Pringles and cold coffee",
+  "funFact": "I once debugged code in my dreams and it actually worked!",
   "customization": {
-    "backgroundColor": "#2c3e50",
+    "backgroundColor": "midnightblue",
     "backgroundImage": "",
-    "profileImage": "https://via.placeholder.com/150"
+    "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
   }
 }
 ```
+
+### Profile Fields
+
+All fields are optional. Have fun and be creative!
+
+**Basic Info:**
+- **username**: Your unique username
+- **name**: Your display name (can be fun and quirky!)
+- **email**: Your email address
+- **bio**: A short bio about yourself
+- **location**: Where you're located
+
+**Fun & Personality:**
+- **favoriteColor**: Your favorite color
+- **favoriteGame**: The game you love to play
+- **hobbies**: What you do for fun
+- **superpower**: What superpower you wish you had
+- **favoriteSnack**: Your go-to snack
+- **funFact**: Something interesting about you
 
 ### Customization Options
 
 The `customization` object is optional and allows users to personalize their profile pages:
 
-- **backgroundColor**: Hex color code for the page background (e.g., `"#2c3e50"`)
+- **backgroundColor**: Color for the page background. Can be a color name (e.g., `"midnightblue"`, `"coral"`, `"lime"`) OR a hex code (e.g., `"#2c3e50"`). Check out [W3Schools Color Names](https://www.w3schools.com/colors/colors_names.asp) for a full list of color options!
 - **backgroundImage**: URL to a background image (leave empty `""` for solid color)
-- **profileImage**: URL to a profile picture
+- **profileImage**: URL to a profile picture (try [DiceBear Avatars](https://www.dicebear.com/) for cool avatar generators!)
 
 **Note**: Text color is automatically calculated based on the background color to ensure optimal contrast and readability.
 
